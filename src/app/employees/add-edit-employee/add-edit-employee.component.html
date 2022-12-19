@@ -1,0 +1,319 @@
+<div class="content-wrapper" style="min-height: 500px;">
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>Employee</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Employee</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div class="card card-primary card-outline card-outline-tabs">
+                        <div class="card-header p-0 border-bottom-0">
+                            <ul class="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="custom-tabs-four-general-tab" data-toggle="pill"
+                                        href="#custom-tabs-four-general" role="tab" aria-controls="custom-tabs-four-general"
+                                        aria-selected="true">General</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="custom-tabs-four-address-tab" data-toggle="pill"
+                                        href="#custom-tabs-four-address" role="tab" 
+                                        aria-controls="custom-tabs-four-address" aria-selected="false">Address</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="custom-tabs-four-document-tab" data-toggle="pill"
+                                        href="#custom-tabs-four-document" role="tab"
+                                        aria-controls="custom-tabs-four-document" aria-selected="false">Documents</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="custom-tabs-four-jobhistory-tab" data-toggle="pill"
+                                        href="#custom-tabs-four-jobhistory" role="tab"
+                                        aria-controls="custom-tabs-four-jobhistory" aria-selected="false">Job History</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="custom-tabs-four-account-tab" data-toggle="pill"
+                                        href="#custom-tabs-four-account" role="tab"
+                                        aria-controls="custom-tabs-four-account" aria-selected="false">Account
+                                        Details</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content" id="custom-tabs-four-tabContent">
+                                <div class="tab-pane fade active show" id="custom-tabs-four-general" role="tabpanel"
+                                    aria-labelledby="custom-tabs-four-general-tab">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Sur Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>First Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Last Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Gender</p>
+                                                <select class="custom-select">
+                                                    <option>option 1</option>
+                                                    <option>option 2</option>
+                                                    <option>option 3</option>
+                                                    <option>option 4</option>
+                                                    <option>option 5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Father Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Mother Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Date of Birth</p>
+                                                <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                                                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate">
+                                                    <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                                                        <div class="input-group-text"><i class="fa fa-calendar"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Blood Group</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Emp Image</p>
+                                                <div class="custom-file">
+                                                   <input type="file" class="custom-file-input" id="customFile">
+                                                   <label class="custom-file-label" for="customFile">Choose file</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Marital Status</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>No of Children</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Aniversari Date</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Position</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Department</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="custom-tabs-four-address" role="tabpanel"
+                                    aria-labelledby="custom-tabs-four-address-tab">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Address</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>City</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>State</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Pincode</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Mobile Number</p>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                    <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                                    </div>
+                                                    <input type="text" class="form-control" data-inputmask="'mask': ['999-999-9999 [x99999]', '+099 99 99 9999[9]-9999']" data-mask="" inputmode="text">
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Alternate Mobile Number</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="form-group">
+                                                <p>Email Id</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>        
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="custom-tabs-four-document" role="tabpanel"
+                                    aria-labelledby="custom-tabs-four-document-tab">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Document Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Document Number</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>        
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="custom-tabs-four-jobhistory" role="tabpanel"
+                                    aria-labelledby="custom-tabs-four-jobhistory-tab">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Pre Organisation Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Role</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>     
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Start Date</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>End Date</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Total Exp</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="custom-tabs-four-account" role="tabpanel"
+                                    aria-labelledby="custom-tabs-four-account-tab">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Bank Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Holder Name</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>     
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>IFSC Code</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>        
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Account Type</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <p>Account Number</p>
+                                                <input type="text" class="form-control" placeholder="Enter ...">
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
